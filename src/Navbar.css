@@ -1,0 +1,48 @@
+nav {
+    transition: all .7s ease-in;
+}
+
+.nav-inner{
+    width: 100%;
+    min-height: 7vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    background-color: white;
+    padding-top: 15px;
+  }
+  
+  nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .logo img{
+    width: 70px;
+  }
+
+  .logo {
+    color: #31383f;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  .links a{
+    color:#31383f;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .App-link {
+    color: #31383f;
+    margin-right: 30px;
+    cursor: pointer;
+    font-family: "Avenir Next", sans-serif;
+    text-transform: uppercase;
+  }
